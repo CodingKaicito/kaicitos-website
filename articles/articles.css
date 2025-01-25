@@ -18,6 +18,18 @@ a:link {
     text-decoration: underline;
 }
 
+a:visited {
+    color: rgb(0, 0, 0); /* Same as unvisited link color */
+  }
+  
+  a:hover {
+    color: rgb(255, 0, 0); /* Color when hovering */
+  }
+  
+  a:active {
+    color: green; /* Color when the link is active (clicked) */
+  }
+
 .social-icons {
     display: flex;
     align-items: center; /* Vertically centers the logo and other content */
